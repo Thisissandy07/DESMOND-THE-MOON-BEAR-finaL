@@ -204,7 +204,7 @@ def main(SCREEN):
         global points, game_speed
         points += 0.5
         if points % 200 == 0:
-            game_speed *= 1.5
+            game_speed *= 1.2
 
 
         text = font.render('Score: ' + str(points), True, (255,255,255))
@@ -289,6 +289,7 @@ def menu(death_count):
 
 
 menu(death_count=0)
+
 
 
 
